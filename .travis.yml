@@ -11,7 +11,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $github-lichuanhong
+  github_token: $github_lichuanhong
   local_dir: storybook-static
   on:
     branch: master
